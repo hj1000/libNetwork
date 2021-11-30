@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{607df462-2899-4fcd-9dc1-86236f1c7a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Crypt">
+      <UniqueIdentifier>{e5f63861-f54d-47ca-a2c2-2429a4694259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\define">
+      <UniqueIdentifier>{3c4424fb-2002-41f7-aeb1-8e25e759655b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\MainSystem">
+      <UniqueIdentifier>{615d79f5-9f25-4a80-89c5-7021b1f8cbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\MemoryManager">
+      <UniqueIdentifier>{145007ef-c79d-4f48-975b-1f1f1ff2ee3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Thread">
+      <UniqueIdentifier>{b1fdb1a7-f099-41b7-9123-d815b2d2f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\NpcManager">
+      <UniqueIdentifier>{028eeb69-024d-4871-b40d-c1acfc4c4a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Socket">
+      <UniqueIdentifier>{0ccf1ad8-6b34-4370-a728-f8168c29b08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Socket\Client">
+      <UniqueIdentifier>{5fc9ff87-f626-4623-9b34-7e555640e651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Socket\Buffer">
+      <UniqueIdentifier>{11a7c90f-a99e-4255-a432-21436b79fb48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\AllowIp">
+      <UniqueIdentifier>{e5f3faf1-c412-434b-9b0e-ee51b27f46e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libNetwork.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.cpp">
+      <Filter>Component\Crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Component\define</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Component\MainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeBuffer.cpp">
+      <Filter>Component\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeManager.cpp">
+      <Filter>Component\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Component\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcData.cpp">
+      <Filter>Component\NpcManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcManager.cpp">
+      <Filter>Component\NpcManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Component\Socket\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularBuffer.cpp">
+      <Filter>Component\Socket\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="AllowIpList.cpp">
+      <Filter>Component\AllowIp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libNetwork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>Component\Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="defExt.h">
+      <Filter>Component\define</Filter>
+    </ClInclude>
+    <ClInclude Include="defNetwork.h">
+      <Filter>Component\define</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Component\MainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeBuffer.h">
+      <Filter>Component\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeManager.h">
+      <Filter>Component\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Component\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcData.h">
+      <Filter>Component\NpcManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcManager.h">
+      <Filter>Component\NpcManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Component\Socket\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Component\Socket\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="AllowIpList.h">
+      <Filter>Component\AllowIp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libNetwork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
